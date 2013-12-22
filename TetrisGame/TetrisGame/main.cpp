@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
 	sf::RenderWindow window(sf::VideoMode(sf::VideoMode::getDesktopMode().width-20, sf::VideoMode::getDesktopMode().height-90), "SFML works!");
-    sf::CircleShape shape(100.f);
+    sf::CircleShape shapec(100.f);
 	// so now im messing with the master
-    shape.setFillColor(sf::Color::Green);
+    shapec.setFillColor(sf::Color::Green);
 
     while (window.isOpen())
     {
@@ -19,10 +19,10 @@ int main()
         }
 
         window.clear();
-        window.draw(shape);
+        window.draw(shapec);
         window.display();
     }
-
+	outputter();
     return 0;
 }
 
