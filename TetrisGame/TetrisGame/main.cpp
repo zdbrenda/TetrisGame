@@ -1,27 +1,16 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 
-
-
-using namespace std;
-
 int main()
 {
-<<<<<<< HEAD
-
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-
-=======
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
->>>>>>> parent of 0241ca7... window size changes
+	sf::RenderWindow window(sf::VideoMode(sf::VideoMode::getDesktopMode().width-20, sf::VideoMode::getDesktopMode().height-90), "SFML works!");
     sf::CircleShape shape(100.f);
+	// so now im messing with the master
     shape.setFillColor(sf::Color::Green);
 
     while (window.isOpen())
     {
-    
-		//loop for handling events
-		sf::Event event;
+        sf::Event event;
         while (window.pollEvent(event))
         {
             if (event.type == sf::Event::Closed)
@@ -34,11 +23,4 @@ int main()
     }
 
     return 0;
-}
-
-void outputter(){
-
-cout<<"im anonymous"<<endl;
-system("pause");
-
 }
