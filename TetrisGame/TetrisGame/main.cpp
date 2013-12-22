@@ -14,7 +14,9 @@ int main()
 
     while (window.isOpen())
     {
-        sf::Event event;
+    
+		//loop for handling events
+		sf::Event event;
         while (window.pollEvent(event))
         {
             if (event.type == sf::Event::Closed)
