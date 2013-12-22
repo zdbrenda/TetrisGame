@@ -7,9 +7,13 @@ using namespace std;
 
 int main()
 {
+<<<<<<< HEAD
 
     sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
 
+=======
+    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+>>>>>>> parent of 0241ca7... window size changes
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Green);
 
