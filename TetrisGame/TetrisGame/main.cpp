@@ -1,6 +1,10 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 
+
+
+using namespace std;
+
 int main()
 {
 	sf::RenderWindow window(sf::VideoMode(sf::VideoMode::getDesktopMode().width-20, sf::VideoMode::getDesktopMode().height-90), "SFML works!");
@@ -23,4 +27,11 @@ int main()
     }
 
     return 0;
+}
+
+void outputter(){
+
+cout<<"im anonymous"<<endl;
+system("pause");
+
 }
