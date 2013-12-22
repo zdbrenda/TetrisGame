@@ -7,8 +7,9 @@ using namespace std;
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(sf::VideoMode::getDesktopMode().width-20, sf::VideoMode::getDesktopMode().height-90), "SFML works!");
-	//bacon for window
+
+    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Green);
 
