@@ -7,12 +7,7 @@ int main()
     sf::CircleShape shape(100.f);
 	// so now im messing with the master
     shape.setFillColor(sf::Color::Green);
-<<<<<<< HEAD
-	// this is a comment!ifovhkhvgrvr
-	hgceikvc 
-=======
 
->>>>>>> parent of d83f288... i wrote a comment
     while (window.isOpen())
     {
 		//handles loops
