@@ -24,3 +24,10 @@ int main()
 
     return 0;
 }
+
+void outputter(){
+
+cout<<"im anonymous"<<endl;
+system("pause");
+
+ }
