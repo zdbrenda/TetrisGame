@@ -10,6 +10,7 @@ int main()
 
     while (window.isOpen())
     {
+		//handles loops
         sf::Event event;
         while (window.pollEvent(event))
         {
@@ -26,6 +27,12 @@ int main()
 }
 
 void outputter(){
+
+cout<<"im anonymous"<<endl;
+system("pause");
+
+ }
+void intputter(){
 
 cout<<"im anonymous"<<endl;
 system("pause");
