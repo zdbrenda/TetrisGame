@@ -1,4 +1,5 @@
-#include "Coordinate.h";
+#pragma once
+#include "Coordinate.h"
 
 Coordinate::Coordinate()
 {
@@ -32,8 +33,5 @@ void Coordinate::setYCoordinate(int n)
 {
 	y=n;
 }
-Coordinate* Coordinate::getCoordinate()
-{
-	return this;
-}
+
 

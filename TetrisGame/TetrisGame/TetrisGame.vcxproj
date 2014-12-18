@@ -79,6 +79,8 @@
     <ClInclude Include="Coordinate.h" />
     <ClInclude Include="Model.h" />
     <ClInclude Include="Minos.h" />
+    <ClInclude Include="Observable.h" />
+    <ClInclude Include="Observer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
