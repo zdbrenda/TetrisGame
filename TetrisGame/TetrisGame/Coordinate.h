@@ -1,14 +1,14 @@
+#pragma once
 class Coordinate
 {
-	public :
+	public:
 		Coordinate();
-		Coordinate(int,int);
-		Coordinate* getCoordinate();
+		Coordinate(int,int);		
 		int getXCoordinate();
 		int getYCoordinate();
 		void setXCoordinate(int);
 		void setYCoordinate(int);
-private :
+private:
 	int x,y;
 
 };
